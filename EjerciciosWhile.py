@@ -49,6 +49,14 @@ def ejercicio2():
 # 5. escriba un programa que pida un numero, el programa calculara el cuadrado desde el numero 1
 #  hasta el valor intruducido por el usuario, los resultados los imprime por ptantallla utilizando un formato tabulador horizoantal
 
+def ejercicio5():
+    valor = input("Escriba un valor:")
+    intentos = 1
+    while int(valor) < 10 or int(valor) > 20:
+        valor = input("Escriba un valor: ")
+        intentos += 1
+        continue
+    print(intentos, " intentos")
 # 6. Escribe un programa que pida un numero el programa pedira de nuevo un numero si es que este no 
 # cae en el rango del 0 al 20 el programa solo debe permitir 10 intentos, una vez que el usuario 
 # ingrese un valor comprendido en el rango del programa finaliza y le muestra por pantalla la 

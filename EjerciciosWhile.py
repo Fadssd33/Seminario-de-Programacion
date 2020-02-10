@@ -72,4 +72,4 @@ def ejercicio6():
             break
         continue
     
-ejercicio6()
+ejercicio5()

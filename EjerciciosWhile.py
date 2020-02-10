@@ -34,18 +34,34 @@ def ejercicio2():
 #  primero, el programa finalizara cuando el numero sea mayor que el primero capturado y escribiendo
 #  los dos numeros
 
+#def ejercicio3():
+
+
 # 4. Escribe un programa que pida un numero, el programa pedira de nuevo el mundo, si es que este no
 #  cae en el rango del 0 al 20, una vez que e usuario ingrese un valor comprendido en el rango el 
 # programa finaliza y le muestra por pantalla la cantidad de intentos realizados.
 
-def ejercicio4():
+# def ejercicio4():
+#     numero = int(input("Ingresa un numero "))
 
 
 
 # 5. escriba un programa que pida un numero, el programa calculara el cuadrado desde el numero 1
 #  hasta el valor intruducido por el usuario, los resultados los imprime por ptantallla utilizando un formato tabulador horizoantal
 
-# Escrib un programa que pida un numero el programa pedira de nuevo un numero si es que este no 
+# 6. Escribe un programa que pida un numero el programa pedira de nuevo un numero si es que este no 
 # cae en el rango del 0 al 20 el programa solo debe permitir 10 intentos, una vez que el usuario 
 # ingrese un valor comprendido en el rango del programa finaliza y le muestra por pantalla la 
 # cantidada de intentos realizados.
+def ejercicio6():
+    valor = input("Escriba un valor:")
+    intentos = 1
+    while int(valor) < 10 or int(valor) > 20:
+        valor = input("Escriba un valor: ")
+        intentos += 1
+        if intentos == 10:
+            print(intentos, " intentos")
+            break
+        continue
+    
+ejercicio6()

@@ -98,13 +98,26 @@ def CalcGenero():
 #CalcGenero()
 
 
-# Escriba un programa que pida dos numeros y este le imprima por pantalla cual es el numero mayot y cual es el menor o bien que le imprima si son iguales
+# Escriba un programa que pida dos numeros y este le imprima por pantalla cual es el numero mayor y cual es el menor o bien que le imprima si son iguales
 
+def ejercicio5():
+    num1 = int(input = "Teclee un numero: ")
+    num2 =  int(input = "Teclee otro numero: ")
+
+    if num1 < num2:
+        print(num2 + "Es mayor que " + num1)
+    elif num2 < num2: 
+        print(num1 + " Es mayor que " + num2)
+    else:
+        print("Los numeros son iguales")
+
+ejercicio5()
 # Escruba un programa que pida tres numeros y que escriba:
 # Si los tres osn iguales
 # Si hay dos iguales
 # los tres son distintos
 
+<<<<<<< HEAD
 def calcularTres():
     num1 = int(input('Escriba el primer numero'))
     num2 = int(input('Escriba el segundo numero'))
@@ -119,3 +132,5 @@ def calcularTres():
     else:
         print('Hay dos numeros iguales')
 calcularTres()
+=======
+>>>>>>> 86604281908bc8892d318ea90b56eaa9c3ea2459

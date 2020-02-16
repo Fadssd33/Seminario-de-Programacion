@@ -67,10 +67,16 @@ def calcMes():
         print("Noviembre")
     elif mes == 12:
         print("Diciembre")
+    
+#calcMes()
 
-# Los aluimnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y nombre
-# El grupo A esta formado por las mujeres con un nombre anterior a la M
-# El grupo B esta formado por los hombres con un nombre porterior a la N
+# Los aluimnos de un curso se han dividido en dos grupos A y B 
+# de acuerdo 
+# al sexo y nombre
+# El grupo A esta formado por las mujeres con un nombre 
+# anterior a la M
+# El grupo B esta formado por los hombres con un nombre
+#  posterior a la N
 
 #def CalcAlumnos():
 
@@ -89,7 +95,7 @@ def CalcGenero():
     else:
         print("Genero:  Masculino Nombre: " + nombre)
 
-CalcGenero()
+#CalcGenero()
 
 
 # Escriba un programa que pida dos numeros y este le imprima por pantalla cual es el numero mayot y cual es el menor o bien que le imprima si son iguales
@@ -98,3 +104,18 @@ CalcGenero()
 # Si los tres osn iguales
 # Si hay dos iguales
 # los tres son distintos
+
+def calcularTres():
+    num1 = int(input('Escriba el primer numero'))
+    num2 = int(input('Escriba el segundo numero'))
+    num3 = int(input('Escriba el tercer numero'))
+
+    # Los tres son iguales
+    if num1 == num2 & num1 == num3:
+        print('Los numeros son iguales')
+    # Si los tres son distintos
+    elif num1 != num2 & num1 != num3 & num2 != num3:
+        print("Los tres numeros son diferentes!")
+    else:
+        print('Hay dos numeros iguales')
+calcularTres()

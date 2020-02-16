@@ -10,9 +10,10 @@ def NumImpares():
 #Escribe un programa que le pida la edad al usuario por pantalla y este imprima los años que ha
 # cumplido desde 1 hasta su edad, para la realizacion de este programa utiliza el tipo de datos range
 def edad():
-    edad = input('Ingrese Edad')
-    for x in range edad:
-        
+    edad = int(input('Ingrese Edad'))
+    for x in range(edad):
+        print('Has cumplido ' + str(x + 1))
+#edad()
 # Escriba un programa que imprima a tabla de multiplicar del 5
 def TablaCinco():
     x = range (10)
@@ -23,12 +24,12 @@ def TablaCinco():
 # Escriba un programa que muestre por pantalla la tabla de multiplicar
 # del 1 al 10
 # Utiliza el tipo de datos range
-# Utiliza el argunmento end it con la finalidad que el print 
+# Utiliza el argunmento end if con la finalidad que el print 
 def TablaDiez():
     for x in range(10):
         for y in range(10):
             print((x + 1) * (y + 1))
-TablaDiez()
+#TablaDiez()
 # Escribe un programa que solicite una frase y este regrese por pantalla 
 # la impresion de cada una de las letras que contiene la frase
 def ImprimirCaracteres():
@@ -36,4 +37,4 @@ def ImprimirCaracteres():
     for char in word:
         print(char)
 
-#ImprimirCaracteres()
+ImprimirCaracteres()
